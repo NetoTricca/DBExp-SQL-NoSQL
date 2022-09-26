@@ -11,10 +11,14 @@ Com o SQL, você pode executar vários comandos para criar, alterar, gerenciar, 
 ## NoSQL
 NoSQL (Not Only SQL) é o termo utilizado para banco de dados não relacionais. Ele foi desenvolvido para ter uma performance melhor e uma escalabilidade mais horizontal para suprir necessidades onde os bancos relacionais não são muito eficazes.
 
-### Documento: Os dados são armazenados como documentos no formato JSON. Um exemplo de banco de dados neste formato é o MongoDB
-### Colunas: Os dados são armazenados em linhas dentro de tabela no disco. Um exemplo de banco de dados neste formato é o Cassandra
-### Grafos: Os dados são armazenados em forma de grafos (vértices e arestas). Um exemplo de banco de dados neste formato é o Neo4j
-### Chave-valor: Em algumas pesquisas e testes realizados pela internet, esta família de banco NoSQL é a que mais aguenta carga de dados, pois o seu conceito é que um determinado valor seja acessado através de uma chave identificadora única. Um exemplo de banco de dados neste formato é o Redis.
+### Documento:
+Os dados são armazenados como documentos no formato JSON. Um exemplo de banco de dados neste formato é o MongoDB
+### Colunas:
+Os dados são armazenados em linhas dentro de tabela no disco. Um exemplo de banco de dados neste formato é o Cassandra
+### Grafos:
+Os dados são armazenados em forma de grafos (vértices e arestas). Um exemplo de banco de dados neste formato é o Neo4j
+### Chave-valor:
+Em algumas pesquisas e testes realizados pela internet, esta família de banco NoSQL é a que mais aguenta carga de dados, pois o seu conceito é que um determinado valor seja acessado através de uma chave identificadora única. Um exemplo de banco de dados neste formato é o Redis.
 
 Resumidamente o o conceito de modelo relacional (SQL) se baseia no fato de que todos os dados sejam guardados em tabelas. O modelo não-relacional (NoSQL) não se aplica o conceito de schema: uma chave de valor que é utilizada para recuperar valores, conjunto de documentos ou colunas.
 
